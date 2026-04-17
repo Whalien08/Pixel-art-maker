@@ -1,18 +1,18 @@
-# Pixel Art Maker 🎨
+# Pixel Art Maker 
 
 A fully interactive, browser-based drawing tool for creating and exporting pixel art. This project focuses on mastering the **HTML5 Canvas API** and implementing fundamental computer science algorithms like **Flood Fill**.
 
-## 🚀 Live Demo
+##  Live Demo
 [Check out the live app here!](https://whalien08.github.io/Pixel-art-maker/)
 
-## ✨ Features
+##  Features
 - **Dynamic Grid:** Supports 16x16, 32x32, and 64x64 canvases with automatic cell scaling.
 - **Toolbox:** Includes Pen, Eraser, and a "Paint Bucket" (Flood Fill) tool.
 - **Color Management:** 16 preset palette colors plus a custom hex color picker.
 - **High-Res Export:** Saves art as clean PNG files without grid lines, scaled up for clarity.
 - **UI/UX:** Dark-themed interface with translucent hover previews and clear-canvas confirmation.
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 ### 1. Data Structure: 2D Array Mapping
 The application state is managed via a 2D JavaScript array. Every pixel's color is stored at a specific coordinate `grid[row][col]`. 
